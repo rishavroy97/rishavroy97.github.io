@@ -1,0 +1,69 @@
+body{
+ background: #f2f2f2;
+	background-image: url(https://cdn.pixabay.com/photo/2014/09/24/16/28/bricks-459299_960_720.jpg);	
+	background-position: center center;
+	background-repeat: repeat;
+	font-family: 'Arimo', sans-serif;
+}
+.heading,.caption{
+  width:75%;
+  margin:auto;
+  min-width: 150px;
+}
+.para{
+    min-width: 150px;
+    max-width: 75%;
+    background: rgba(15,15,15,.850);
+    overflow-x: auto;
+    overflow-y: auto;
+    text-align: left;
+    color: #fff;  
+    padding-right: 1rem;
+    padding-left: 1rem;
+    line-height: 2rem;
+}
+
+#Heading_para{
+  float: none;
+  margin: auto;
+}
+h2{
+  color: #fff;
+  margin: auto;
+  font-size: 300%;
+  text-align: center;
+  padding: 4rem;
+  min-width: 150px;
+}
+h3{
+  color: #fff;
+  margin: auto;
+  font-size: 250%;
+  padding: 2rem;
+}
+.clickable:hover{
+  cursor:pointer;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+  height: 200px;
+  overflow: hidden;
+  min-width: 150px;
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-color: #fff;
+  border-width: 5px;
+  border-radius: 100%;
+  margin: auto;
+}
+
+hr{
+  color:#fff;
+  width:20px;
+}
