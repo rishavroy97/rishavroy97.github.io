@@ -1,6 +1,6 @@
 body{
  background: #f2f2f2;
-	background-image: url(https://cdn.pixabay.com/photo/2014/09/24/16/28/bricks-459299_960_720.jpg);	
+	background-image: url(bricks-459299_960_720.jpg);	
 	background-position: center center;
 	background-repeat: repeat;
 	font-family: 'Arimo', sans-serif;
@@ -56,8 +56,7 @@ h3{
 .container img {
   max-width: 100%;
   height: auto;
-  display: block;
-  width:3rem;
+  display:inline-block;
   border-color: #fff;
   border-width: 5px;
   border-radius: 100%;
@@ -67,4 +66,20 @@ h3{
 hr{
   color:#fff;
   width:20px;
+}
+.contact-me{
+  min-width:200px;
+  width:50%;
+}
+.container2 {
+  margin: auto;
+  width: 10%;
+  height: 200px;
+  overflow: hidden;
+  float: left;
+}
+.container2 img:hover{
+  cursor: pointer;
+  background-color: rgba(15,15,15,.850);
+  border-radius: 10%;
 }
