@@ -1,9 +1,19 @@
-function toggle(){
-var parentID = document.getElementsByClassName('Topic');
-var innerDiv = parentID.getElementsByClassName('para');
- if (innerDiv.style.display === 'none') {
-        innerDiv.style.display = 'block';
-    } else {
-        innerDiv.style.display = 'none';
-    }
+var para = document.getElementsByClassName('paragraph');
+for (i = 0; i < para.length; i++) {
+  para[i].style.display = 'none';
 }
+
+
+var caption = document.getElementsByClassName("clickable");
+var i;
+for (i = 0; i < caption.length; i++) {
+  caption[i].onclick = function() {
+    if(this.parentNode.lastElementChild.style.display === "none"){
+        this.parentNode.lastElementChild.style.display = "block";
+    }
+    else{
+      this.parentNode.lastElementChild.style.display = "none";
+    }
+  }
+}
+ 
