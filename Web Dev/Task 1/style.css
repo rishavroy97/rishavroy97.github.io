@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+	background: #f7f7f7;
+	background-image: url(https://cdn.pixabay.com/photo/2014/09/24/16/28/bricks-459299_960_720.jpg);	
+	background-position: center center;
+	font-family: 'Arimo', sans-serif;
+}
+
+.list{
+	min-width: 200px;
+	
+    max-width: 400px;
+    margin: auto;
+    background: rgba(15,15,15,.850);
+    overflow-x: auto;
+    overflow-y: auto;
+    text-align: left;
+    color: #fff;    
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    font-size: 18px;
+}
+
+
+ul li:hover {
+    background: #000;
+}
+
+
+.header {
+    margin: auto;
+	text-align: center;
+	font-size: 300%;
+	color: #fff;
+}
+
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+input {
+    border: none;
+    width: 85%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+
+
+.addBtn {
+	position: relative;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    float :right;
+}
+.addBtn:click{
+	top:5px;
+	right: 5px;
+}
+
+.addBtn:hover {
+    background-color: #bbb;
+    cursor: pointer;
+}
