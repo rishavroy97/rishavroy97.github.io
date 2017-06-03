@@ -1,0 +1,97 @@
+body{
+  background: #f2f2f2;
+	background-image: url(bricks-459299_960_720.jpg);	
+	background-position: center center;
+	background-repeat: repeat;
+	font-family: 'Arimo', sans-serif;
+}
+.heading{
+  width:75%;
+  margin:auto;
+  min-width: 150px;
+  background: rgba(15,15,15,.850);
+  overflow-x: auto;
+  overflow-y: auto;
+  text-align: center;
+  color: #fff;  
+  line-height: 2rem;
+}
+
+h2{
+  color: #fff;
+  margin: auto;
+  font-size: 300%;
+  text-align: center;
+  padding: 4rem;
+  min-width: 150px;
+  line-height: 2rem;
+}
+
+.Game{
+  margin: auto;
+  width:75%;
+  height:auto;
+  min-width: 15rem;
+}
+.Slot{
+  padding: 1rem;
+  padding-right: 0.25rem;
+  padding-left:  0.25rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 0.15rem;
+  margin-left: 0.15rem;
+  width:25%;
+  height:10rem;
+  min-width: 5rem;
+  min-height: 5rem;
+  background: #fff;
+  border-color: #000;
+  border-width: 25px;
+  display: inline-block;
+}
+#score{
+  background: rgba(15,15,15,.850);
+  color: #fff; 
+  font-size: 150%
+}
+#button{
+  width:10rem;
+  text-align: center;
+  margin:auto;
+  cursor: pointer;
+  color: #000;
+  background:#ffcc00;
+  font-size: 2rem;
+  box-shadow: 0 9px #999;
+}
+
+#button:hover{
+  background: #000;
+  color: #FFCC00;
+}
+
+#button:active{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.Slot{
+  color: #000;
+  font-size: 10rem;
+  font-family: Arial,Sans-Serif;
+  text-align: center;
+}
+.buttons-div{
+  margin: auto;
+}
+.text{
+  font-size: 2.5rem;
+  color: #ffcc00;
+}
+
+@media only screen and (max-width: 480px){
+  html{
+    font-size:10px;
+  }
+}
